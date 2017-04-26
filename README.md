@@ -3,7 +3,7 @@
 Run JavaScript written in Flow through Node.
 
 - Type checks your code before executing it.
-- Will automatically create a an empty, temporary `.flowconfig` file if one doesn't exist and cleans up after itself.
+- Will automatically create an empty, temporary `.flowconfig` file if one doesn't exist and cleans up after itself.
 - Uses Babel presets `env` and `stage-0` so you can use anything you want.
 
 ## Why?
@@ -29,4 +29,3 @@ flowde path/to/my/script.js
 ## Notes
 
 - Remember to add `// @flow` to the files you want checked.
-
